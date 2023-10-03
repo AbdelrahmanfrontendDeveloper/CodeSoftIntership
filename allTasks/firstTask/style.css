@@ -1,0 +1,90 @@
+*{
+    padding:0 ; 
+    margin:0 ; 
+    box-sizing: border-box ; 
+    color: white; 
+    font-family: 'Poppins', sans-serif;
+   
+} 
+
+.container{
+     height: 100vh;  
+     width: 100%; 
+     background-color: black;
+}  
+header{
+    display: flex; 
+    width:80% ; 
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;  
+    padding:20px 0 ;
+     
+} 
+ 
+ul li{
+    display: inline-block; 
+    margin:0 20px;
+}  
+ul li a{
+    color:white  ; 
+    text-decoration: none;  
+    font-size: 20px;  
+    margin: 0 10px;
+    
+}
+.logo{
+    color: white; 
+    width: 40px;
+    
+} 
+
+.contant{
+    display: flex; 
+    justify-content: space-between ; 
+    align-items: center; 
+    width: 80%; 
+    margin: auto; 
+    overflow: hidden;
+} 
+.contant .text{
+
+  width: 50% ; 
+  color: white;
+}
+.contant .text h2{ 
+    font-size: 40px;
+    text-transform: uppercase;
+} 
+.contant .text p{ 
+    font-size:18px ; 
+    margin:20px 0 ; 
+} 
+.contant .text a{
+    text-decoration: none; 
+    background-color: #001aff; 
+    color: rgb(219, 225, 233); 
+    padding: 8px 15px; 
+    border-radius: 20px;
+} 
+.contant .image{
+    width: 30%;
+} 
+.contant .image img{
+    width: 200px;
+}  
+.icons{
+    position: absolute; 
+    top: 80%;  
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icons img{
+    width: 40px; 
+    transition: 0.5s; 
+    cursor: pointer;
+    
+} 
+.icons img:hover{
+    transform: scale(1.2);
+}
